@@ -1,0 +1,15 @@
+{
+  "name": "feb-24-t3w2-intro-to-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start":"node src/index.js",
+    "bananas":"node src/index.js",
+    "rahul":"npm run bananas && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alex/Kate",
+  "license": "ISC",
+  "description": ""
+}
