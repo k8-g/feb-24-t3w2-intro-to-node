@@ -3,13 +3,20 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start":"node src/index.js",
-    "bananas":"node src/index.js",
-    "rahul":"npm run bananas && npm start",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "bananas": "node src/index.js",
+    "rahul": "npm run bananas && npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Alex/Kate",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "inquirer": "^10.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
