@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
+    "docs": "jsdoc ./src/*",
     "bananas": "node src/index.js",
     "rahul": "npm run bananas && npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +18,7 @@
     "inquirer": "^10.1.8"
   },
   "devDependencies": {
+    "jsdoc": "^4.0.3",
     "nodemon": "^3.1.4"
   }
 }
